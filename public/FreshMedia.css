@@ -119,13 +119,17 @@ blockquote {
 	color: #976957;	
 }
 
+.avatar {
+border-radius: 50%;
+}
+
 /* start - table */
 table {
 	border-collapse: collapse;
 	margin: 15px 10px;	
 }
 th {
-	background: #ADD8E6 url(/images/header-bg.jpg) repeat-x 0 -100px;
+	background: #ADD8E6 url(/img/header-bg.jpg) repeat-x 0 -100px;
 	height: 38px;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -143,6 +147,7 @@ td {
 	padding-right: 11px;
 	border: 1px solid #EDEDED;	
 }	
+
 /* end - table */
 
 /* form elements */
@@ -218,13 +223,13 @@ input.button {
 -------------------------------------------*/ 
 #wrap-out {
 	position: relative;
-	background: #fff url(/images/header-bg.jpg) repeat-x;
+	background: #fff repeat-x;
 	width: 900px;	
 	margin: 0 auto;
 	text-align: left;	
 }
 #wrap {
-	background: url(/images/header-photo.jpg) no-repeat right top;
+	background: url(/img/logokolors.jpeg) no-repeat right top;
 	width: 900px;	
 	margin: 0 auto;	
 }
@@ -317,14 +322,14 @@ input.button {
 #header h1#logo-text a {
 	position: absolute;
 	margin: 0; padding: 0;
-	font: normal 72px Georgia, "Times New Roman", Times, serif;
+	font: normal 50px Georgia, "Times New Roman", Times, serif;
 	letter-spacing: -1.5px;
-	color: #fff;
+	color: black;
 	text-transform: none;
 	text-decoration: none;
 	
 	/* change the values of top and left to adjust the position of the logo*/
-	top: 95px; left: 30px;	
+	top: 130px; left: 30px;	
 }
 #header h1#logo-text a:hover {
 	background: none;	border: none;
@@ -334,12 +339,13 @@ input.button {
 	margin: 0; padding: 0;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.6em;
 	font-style: italic;
 	text-transform: none;
-	color: #755643;
+	color: #0C9BC2;
 	width: 400px;
+	display: inline;
 	
 	/* change the values of top and left to adjust the position */
 	top: 190px; left: 35px;		
@@ -381,7 +387,8 @@ input.button {
 #sidebar h3 {
 	margin-top: 10px;
 	padding: 15px 5px 3px 5px; 
-	font: normal 1.5em 'trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;	
+	font: normal 1.5em 'trebuchet MS', Tahoma, Helvetica, Arial, sans-serif;
+	font-weight: bold;	
 	color: #666666;	
 	letter-spacing: -.5px;	
 }
